@@ -45,4 +45,3 @@ export default class PokemonClient {
         setTimeout(() => this._cache.delete(pokemon), this._CACHE_TIMEOUT_MS);
     }
 }
-

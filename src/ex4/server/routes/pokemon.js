@@ -10,3 +10,4 @@ router.get('/:pokemon', async (req, res, next) => {
 });
 
 export default router;
+

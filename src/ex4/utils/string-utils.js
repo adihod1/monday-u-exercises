@@ -5,6 +5,7 @@ export function capitalizeText(text) {
         .join(' ');
 }
 
-export function generateUniqueID() {
+
+export function generateUniqueID() { 
     return Math.random().toString(36).substr(2, 9);
 }
